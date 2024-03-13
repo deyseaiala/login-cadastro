@@ -1,0 +1,73 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+*{
+    box-sizing: border-box;
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(122, 122, 122);
+    
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to right, rgb(160, 160, 239), rgb(240, 147, 226));
+    width: 100%;
+    height: 48vw;
+}
+
+#conteiner{
+    display: flex;
+    width: 1200px;
+    height: 650px;
+    background-color: white;
+    border-radius: 15px;
+    border-style: none;
+}
+
+#logo{
+    width: 300px;
+    padding-left: 20px;
+}
+
+#areaCadastro, form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+input, button{
+    width: 500px;
+    height: 35px;
+    border-radius: 10px;
+} 
+
+#enviar{
+    background-color: rgb(90, 90, 249);
+    color: white;
+    border-style: none;
+}
+
+input{
+    background-color: rgb(226, 233, 245);
+    border-style: none;
+    padding-left: 10px;
+}
+
+.letraAzul{
+    color: rgb(90, 90, 249);;
+}
+
+h1{
+    font-weight: 800;
+}
+
+h2{
+    font-weight: 600;
+}

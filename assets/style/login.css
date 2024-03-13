@@ -1,0 +1,97 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+*{
+    box-sizing: border-box;
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+
+
+#conteiner{
+    display: flex;
+    width: 1200px;
+    height: 500px;
+    background-color: white;
+    border-radius: 15px;
+    border-style: none;
+}
+
+
+.width50{
+    width: 50%;
+}
+
+
+
+.displayColumn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.paddingtop80px{
+    padding-top: 80px;
+}
+ 
+h1{
+    font-weight: 800;
+}
+
+#areaTexto{
+    color: rgb(91, 91, 91);
+}
+
+#areaLogin{
+    color: rgb(122, 122, 122);
+}
+input, button{
+    width: 200px;
+    height: 35px;
+    margin: 10px;
+    border-radius: 10px;
+    color: rgb(122, 122, 122);
+} 
+
+p{
+    text-align: end;
+}
+
+#enviar{
+    background-color: rgb(90, 90, 249);
+    color: white;
+    border-style: none;
+}
+
+.buttonContinue{
+    background-color: white;
+    border-color: rgb(216, 214, 214) ;
+}
+
+input{
+    background-color: rgb(226, 233, 245);
+    border-style: none;
+    padding-left: 10px;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to right, rgb(160, 160, 239), rgb(240, 147, 226));
+    width: 100%;
+    height: 48vw;
+}
+
+.letraAzul{
+    color: rgb(90, 90, 249);;
+}
+
+a{
+    text-decoration: none;
+}
